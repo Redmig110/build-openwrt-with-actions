@@ -12,7 +12,7 @@ sed -i 's/OpenWrt/RWRT/g' package/base-files/files/bin/config_generate
 
 # 添加额外的软件包，echo 方式和git clone 方式二选一即可
 #echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-#echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 #echo #echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.d
 #echo #echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.d
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' >>feeds.conf.default
